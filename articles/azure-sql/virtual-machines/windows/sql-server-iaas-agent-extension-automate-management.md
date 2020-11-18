@@ -212,7 +212,7 @@ To change the manageability mode from full manageability, [unregister](sql-agent
 
 **Can I register with the SQL IaaS Agent extension from the Azure portal?**
 
-No. Registering with the SQL IaaS Agent extension is not available in the Azure portal. Registering with the SQL IaaS Agent extension is only supported with the Azure CLI or Azure PowerShell. 
+No. Registering a single VM with the SQL IaaS Agent extension is not available in the Azure portal. Registering with the SQL IaaS Agent extension is only supported with the Azure CLI or Azure PowerShell.  Automatic registration for all SQL virtual machines in a subscription is available in the portal however. It can be enabled in the top menu of the SQL Virtual Machines blade by clicking on Automatic SQL Server VM Registration.
 
 **Can I register a VM with the SQL IaaS Agent extension before SQL Server is installed?**
 
